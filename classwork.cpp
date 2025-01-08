@@ -8,7 +8,12 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
+    std::vector<std::string> words = {};
+    words.push_back("hello");
+    words.push_back("darkness");
+    words.push_back("friend");
 
+    std::cout << words[0] << " " << words[1] << " " << words[2];
     
     return 0;
 }
